@@ -123,9 +123,9 @@ class NavBar extends React.Component {
 }
 
 const leftItems = [
-  { as: Link, to: "/",content: "Home", key: "home" },
-  { as: Link, to: "/products",content: "Products", key: "products" },
-  { as: Link, to: "/review",content: "Review", key: "review" }
+  { as: "a", content: "Home", key: "home" },
+  { as: "a", content: "Products", key: "products" },
+  { as: "a", content: "Review", key: "review" }
 ];
 const rightItems = [
  // { as: Link,to: "/Login",content: "Login", key: "login" },

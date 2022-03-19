@@ -1,10 +1,10 @@
-import React from "react";
+import React, {} from "react";
 import { createMedia } from "@artsy/fresnel";
-import { Icon, Image, Menu, Sidebar } from "semantic-ui-react";
-import { Link } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
- 
-const AppMedia = createMedia({
+import { Container, Icon, Image, Menu, Sidebar } from "semantic-ui-react";
+
+
+
+ const AppMedia = createMedia({
     breakpoints: {
     mobile: 320,
     tablet: 768,
@@ -123,38 +123,22 @@ class NavBar extends React.Component {
 }
 
 const leftItems = [
-  { as: Link, to: "/",content: "Home", key: "home" },
-  { as: Link, to: "/products",content: "Products", key: "products" },
-  { as: Link, to: "/review",content: "Review", key: "review" }
+  { as: "a", content: "Home", key: "home" },
+  { as: "a", content: "Products", key: "products" },
+  { as: "a", content: "Review", key: "review" }
 ];
 const rightItems = [
- // { as: Link,to: "/Login",content: "Login", key: "login" },
+  { as: "a", content: "Login", key: "login" },
+  { as: "a", content: "Register", key: "register" }
 ];
-
-
 function Header() {
-    
-  const {user, isAuthenticated} = useAuth0();
-  console.log(user);
-  console.log(isAuthenticated);
-
-  rightItems.length = 0;
-  if(isAuthenticated){
-      rightItems.push ({ as: Link, to: "/login", content: "Log Out", key: "login" })
-      // rightItems.push(`<div>user.name</div>`,
-      //   `<button onClick={()=> logout()}>Logout<button></button>`);
-  }
-  else {
-      rightItems.push ({ as: Link, to: "/login", content: "Login", key: "login" });
-  }
-
-  return (
-      <MediaContextProvider>
-    <NavBar leftItems={leftItems} rightItems={rightItems}>
-      <Image src="https://react.semantic-ui.com/images/wireframe/paragraph.png" />
-    </NavBar>
-  </MediaContextProvider>
-  )
+    return (
+<MediaContextProvider>
+      <NavBar leftItems={leftItems} rightItems={rightItems}>
+        <Image src="https://react.semantic-ui.com/images/wireframe/paragraph.png" />
+      </NavBar>
+    </MediaContextProvider>
+    )
 }
     
 export default Header;
