@@ -1,0 +1,10 @@
+.login{
+    border-radius:11px;
+    width: 5%;
+    background-color: rgb(109, 67, 148);
+    color:white;
+}
+.login:hover{
+    background-color: white;
+    color:rgb(109, 67, 148); 
+}
