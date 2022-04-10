@@ -19,10 +19,10 @@ function CardItem({description, image, name, price, item}){
           <Card.Content>
             <Card.Header>{name}</Card.Header>
             <Card.Meta>
-          
+          <span className="date">Joined in 2015</span>
         </Card.Meta>
             <Card.Description>
-              {description}
+              {description.comment}
             </Card.Description>
           </Card.Content>
           <Card.Content extra className="buy-info">

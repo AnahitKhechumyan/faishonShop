@@ -48,7 +48,7 @@ console.log(e.target.files);
                               <List.Header>{item.name} </List.Header>
                               {item.price}
                               <Segment.Inline>
-                                {item.orderStatus ?item.orderStatus : "" }
+                                "item.orderStatus"
                               </Segment.Inline>
                               <form
                                 onSubmit={(e) => {

@@ -38,7 +38,7 @@ console.log(e.target.files);
                             <Image
                               avatar
                               className="product-icon"
-                              src={item.img[0]? item.img[0].imagePath : productImg}
+                              src={item.img[0]?.imagePath || productImg}
                             />
                           </Segment.Inline>
                         </Grid.Column>
@@ -48,7 +48,7 @@ console.log(e.target.files);
                               <List.Header>{item.name} </List.Header>
                               {item.price}
                               <Segment.Inline>
-                                {item.orderStatus ?item.orderStatus : "" }
+                                "item.orderStatus"
                               </Segment.Inline>
                               <form
                                 onSubmit={(e) => {

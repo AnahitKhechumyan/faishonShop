@@ -46,7 +46,7 @@ const AppMedia = createMedia({
                    
                     <Menu fixed="top" inverted>
                         <Menu.Item key={nanoid()}>
-                            <Image size="mini" src="https://seeklogo.com/images/G/girls-and-clothing-fashion-shop-logo-E38B5BAF74-seeklogo.com.png" />
+                            <Image size="mini" src="../../images/fashion-shop-logo.png" />
                         </Menu.Item>
                         <Menu.Item onClick={onToggle}>
                             <Icon name="sidebar" />
@@ -78,7 +78,7 @@ const AppMedia = createMedia({
             
             <Menu  fixed="top" inverted>
                 <Menu.Item key={nanoid()}>
-                    <Image size="mini" src="https://seeklogo.com/images/G/girls-and-clothing-fashion-shop-logo-E38B5BAF74-seeklogo.com.png" />
+                    <Image size="mini" src="https://react.semantic-ui.com/logo.png" />
                 </Menu.Item>
 
                 {leftItems.map((item, index) => (

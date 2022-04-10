@@ -5,7 +5,11 @@ import AddProductsForm from "./AddProductsForm";
 import { confirmAddProduct } from "../../Services/api";
 
 
- 
+import React, { useState } from "react";
+import { Button, Form, Header, Image, Modal, Segment } from "semantic-ui-react";
+import { useAuth0 } from "@auth0/auth0-react";
+import AddProductForm from "./AddProductForm";
+import { confirmAddProduct } from "../../services/api";
 
 function AddProduct({setResponseInfo}) {
   
@@ -61,7 +65,7 @@ function AddProduct({setResponseInfo}) {
       trigger={<Button color="green">Add New Product</Button>}
     >
       <Modal.Content>
-        <AddProductsForm changeOptions={changeOptions} />
+        <AddProductForm changeOptions={changeOptions} />
       </Modal.Content>
       <Modal.Actions>
         <Segment>

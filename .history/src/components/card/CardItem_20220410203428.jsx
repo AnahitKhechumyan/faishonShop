@@ -15,14 +15,14 @@ function CardItem({description, image, name, price, item}){
         <Card centered>
          {/*<img src={image[0].imagePath} height="200px" />*/}
           {/* <Image src={""+img} height="200px" /> */}
-          <Image src={image?image.imagePath: productImg} wrapped ui={false} />
+          <Image src={image?image.imagePath: } wrapped ui={false} />
           <Card.Content>
             <Card.Header>{name}</Card.Header>
             <Card.Meta>
-          
+          <span className="date">Joined in 2015</span>
         </Card.Meta>
             <Card.Description>
-              {description}
+              {description.comment}
             </Card.Description>
           </Card.Content>
           <Card.Content extra className="buy-info">

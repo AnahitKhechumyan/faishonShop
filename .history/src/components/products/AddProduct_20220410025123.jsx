@@ -61,7 +61,7 @@ function AddProduct({setResponseInfo}) {
       trigger={<Button color="green">Add New Product</Button>}
     >
       <Modal.Content>
-        <AddProductsForm changeOptions={changeOptions} />
+        <AddProductForm changeOptions={changeOptions} />
       </Modal.Content>
       <Modal.Actions>
         <Segment>
