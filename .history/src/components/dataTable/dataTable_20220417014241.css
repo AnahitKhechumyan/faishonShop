@@ -1,0 +1,20 @@
+.ui.image.product-icon{
+    width: auto;
+    height: 100px;
+     
+    }
+
+.grid-table {
+    position: relative;
+     
+}
+
+.grid-table>.row{
+    height: 130px; 
+}
+.ui.grid>.twelve.wide.column {
+    width: 70%!important;
+    border: 2px solid rgb(141, 58, 189);
+}
+ 
+  

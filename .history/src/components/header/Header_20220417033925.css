@@ -1,0 +1,11 @@
+.ui.fixed.menu.top{
+    background-color: rgb(195, 141, 245);
+    box-shadow:30px; color:rgba(161, 134, 185, 0.103);
+}
+
+.customHeader, .pusher{
+    height: 60px;
+}
+#drop-down{
+    z-index: 9999;
+}

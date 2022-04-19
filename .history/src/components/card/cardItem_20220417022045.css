@@ -1,0 +1,16 @@
+ 
+.ui.card>.image>img,
+.ui.cards>.card>.image>img {
+    width: 100px;
+    background:none;
+}
+.ui.card>.buy-info{
+    padding: 5px;
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+ .ui.white.button{
+     border-radius: 20px 40px;
+     box-shadow:5px 5px 2px 2px; color:rgb(159, 128, 189);
+ }

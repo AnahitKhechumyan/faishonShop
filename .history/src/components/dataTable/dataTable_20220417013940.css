@@ -1,0 +1,24 @@
+.ui.image.product-icon{
+    width: auto;
+    height: 100px;
+     
+    }
+
+.grid-table {
+    position: relative;
+     
+}
+
+.grid-table>.row{
+    height: 130px; 
+}
+.ui.grid>.twelve.wide.column {
+    width: 70%!important;
+    border: 2px solid rgb(141, 58, 189);
+}
+ 
+ .ui.violet.button{
+    border: 2px solid rgb(141, 58, 189);
+    border-radius: 50px;
+    box-shadow:10px 15px 15px 8px; color:rgb(172, 139, 202) !important;
+ }

@@ -1,0 +1,26 @@
+ 
+.ui.card>.image>img,
+.ui.cards>.card>.image>img {
+    width: 100px;
+    background:none;
+}
+.ui.card>.buy-info{
+    padding: 5px;
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+ .ui.violet.inverted.right.floated.button{
+     border-radius: 20px 40px;
+     
+ }
+ .ui.centered.card{
+    /*border: 1px solid rgb(141, 58, 189);*/
+    border-radius: 30px 90px;
+    box-shadow:10px 8px 4px 4px; color:rgba(206, 158, 253, 0.521);
+ }
+ 
+ .ui.cards>.card>.content>.description{
+     color:rgb(110, 42, 173);
+     font-size: 20px;
+ }

@@ -1,0 +1,9 @@
+.ui.vertical.tabular.menu {
+    border: 2px solid rgb(141, 58, 189);
+    /*box-shadow:10px 15px 15px 8px; color:rgb(172, 139, 202) !important;*/
+}
+.ui.violet.button{
+   
+    border-radius: 20px 40px;
+    box-shadow:5px 5px 2px 2px; color:rgb(159, 128, 189);
+ }
