@@ -1,0 +1,14 @@
+.login-body{
+    height: 400px;
+}
+.login{ 
+    width: 7%;
+    
+    color:white;
+    box-shadow: rgb(157, 139, 173)  5px 10px 10px;
+}
+.login:hover{
+    width: 8%;
+    background-color: white;
+    color:rgb(109, 67, 148); 
+}

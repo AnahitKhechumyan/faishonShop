@@ -1,0 +1,28 @@
+.ui.fixed.menu.top{
+    background-color: rgb(162, 118, 202);
+    box-shadow: 0px 10px; color:rgba(136, 126, 139, 0.199);
+}
+
+.customHeader, .pusher{
+    position: relative;
+    height: 60px;
+    z-index:101;
+}
+#drop-down{
+    z-index: 9999;
+}
+.customHeader .pushable {
+    position: fixed;
+    z-index: 101;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow-x: visible;
+  }
+  
+  #left-pusher .menu {
+    top: 60px;
+    width: 120px;
+    height: auto !important;
+    max-height: inherit;
+  }

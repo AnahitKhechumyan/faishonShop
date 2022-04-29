@@ -1,0 +1,7 @@
+.dashboard{
+    margin-top: 50px;
+    }
+    .dashboard.ui.container{
+        min-height: calc(100vh - 300px);
+      }
+ 

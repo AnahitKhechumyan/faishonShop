@@ -1,0 +1,14 @@
+.login-body{
+    height: 400px;
+    background-color: rgb(242, 236, 247);
+}
+.login{ 
+    width: 8%;
+}
+.ui.violet.message.massage-login{
+  font-size: 15px;
+  color: rgb(134, 76, 182);
+}
+.main{
+    background-color: rgb(242, 236, 247);  
+} 

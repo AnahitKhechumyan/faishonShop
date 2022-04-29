@@ -1,0 +1,17 @@
+body{
+    background-image:  url(../../Slide/img/img7.jpg)
+}
+.login{
+    border: none;
+    padding:5px;
+    border-radius:50px;
+    width: 7%;
+    background-color: rgb(156, 111, 197);
+    color:white;
+    box-shadow: rgb(157, 139, 173)  5px 10px 10px;
+}
+.login:hover{
+    width: 8%;
+    background-color: white;
+    color:rgb(109, 67, 148); 
+}

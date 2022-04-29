@@ -1,0 +1,209 @@
+
+.ui.image.product-icon{
+    width: auto;
+    height: 90px;
+     
+    }
+
+.grid-table {
+    position: relative;
+}
+
+.grid-table>.row{
+    height: 120px;
+}
+#name-prudct{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+#price-id{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#status-id{
+    font-weight: 500;
+}
+
+#address-id{
+    font-size: 12px;
+    font-weight: 300;
+}
+#address{
+ font-size: 17px;
+ font-weight: 500;
+}
+
+.phone-pending{
+    font-size: 10px;
+}
+
+.pending-item{
+    border-bottom: 1px solid #999999;
+}
+
+.item{
+    justify-content: space-between;
+}
+
+.ui.button.btn-upload{
+    background: none;
+    
+}
+.green.upload.icon.btn-icon{
+    font-size: 14px;
+}
+
+input[type=file] {
+    display: none;
+    
+}
+
+.img-icon{
+    cursor: pointer;
+}
+
+.ui.grid.grid-table{
+    margin-bottom: 20px;
+}
+
+.currency{
+    font-size: 10px;
+    color: coral;
+    
+}
+
+.nine.wide.column.image-upload-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ui.items.add-prd-list{
+    border-bottom: 1px solid rgb(194, 193, 193);
+}
+
+.ui.items.user-order .content{
+    padding-top: 2rem;
+
+}
+
+.ui.items.user-order .content .header{
+    padding-top: 2rem;
+
+}
+
+.ui.items.pening .content{
+    padding-top: 1rem;
+    
+}
+
+ 
+ .ui.items.pening .content .description{
+     margin-top: 0;
+ }
+
+.ui.grid{
+    gap:0px !important;
+}
+
+
+/* .ui.image.product-icon{
+    width: auto;
+    height: 110px;
+     
+    }
+
+.grid-table {
+    height: 100px;
+    position: relative;
+     
+}
+.ui.items.grid-table{
+    margin-bottom: 80px;
+}
+.grid-table>.row{
+    height: 120px;
+    margin-bottom: 60px; 
+}
+.ui.grid >.twelve.wide.column {
+    width: 60%!important;
+    border: 2px solid rgb(141, 58, 189);
+}
+#name-prudct{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+#price-id{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#status-id{
+    font-weight: 500;
+}
+
+#address-id{
+    font-size: 12px;
+    font-weight: 300;
+}
+#address{
+ font-size: 17px;
+ font-weight: 500;
+}
+
+.phone-pending{
+    font-size: 10px;
+}
+
+.pending-item{
+    border-bottom: 1px solid #999999;
+}
+
+.item{
+    justify-content: space-between;
+}
+
+.ui.button.btn-upload{
+    background: none;
+    box-shadow: none;
+    
+}
+.green.upload.icon.btn-icon{
+    font-size: 14px;
+}
+
+input[type=file] {
+    display: none;
+    
+}
+
+.img-icon{
+    cursor: pointer;
+}
+
+ 
+
+.currency{
+    font-size: 10px;
+     
+}
+
+.nine.wide.column.image-upload-form{
+    width: 100%;
+    display: flex;
+    
+}
+.ui.bottom.attached.segment.active.tab{
+    display: grid;
+    justify-content: right;
+}
+.six.wide.column{
+    display: contents;
+}
+ 
+   */

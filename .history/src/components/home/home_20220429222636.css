@@ -1,0 +1,25 @@
+.home{
+    /*margin: 15vh 2vh 0 0;*/
+    padding: 2vh;
+    
+}
+
+.message-home{
+	width: 100px;
+}
+/*@media screen and (max-width: 768px) {
+    .slideImg{
+        width: 35%;
+        
+    }
+    
+	#slide{
+		height: 150px;
+	}
+	#slide .slideDescription{
+		display: none;
+	}
+	#slide .slideImg{
+		width: 100%;
+    }
+  } */

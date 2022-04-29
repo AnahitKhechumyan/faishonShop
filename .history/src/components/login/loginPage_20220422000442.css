@@ -1,0 +1,10 @@
+.login-body{
+    height: 400px;
+    background-color: rgb(224, 204, 243);
+}
+.login{ 
+    width: 8%;
+}
+.massage-login{
+  font-size: 40px;  
+} 

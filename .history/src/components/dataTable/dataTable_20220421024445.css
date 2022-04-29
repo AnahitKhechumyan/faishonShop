@@ -1,0 +1,106 @@
+.ui.image.product-icon{
+    width: auto;
+    height: 110px;
+     
+    }
+
+.grid-table {
+    height: 100px;
+    position: relative;
+     
+}
+
+.grid-table>.row{
+    height: 120px;
+    margin-bottom: 50px; 
+}
+.ui.grid >.twelve.wide.column {
+    width: 60%!important;
+    border: 2px solid rgb(141, 58, 189);
+}
+#name-prudct{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+#price-id{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#status-id{
+    font-weight: 500;
+}
+
+#address-id{
+    font-size: 12px;
+    font-weight: 300;
+}
+#address{
+ font-size: 17px;
+ font-weight: 500;
+}
+
+.phone-pending{
+    font-size: 10px;
+}
+
+.pending-item{
+    border-bottom: 1px solid #999999;
+}
+
+.item{
+    justify-content: space-between;
+}
+
+.ui.button.btn-upload{
+    background: none;
+    
+}
+.green.upload.icon.btn-icon{
+    font-size: 14px;
+}
+
+input[type=file] {
+    display: none;
+    
+}
+
+.img-icon{
+    cursor: pointer;
+}
+
+ 
+
+.currency{
+    font-size: 10px;
+    /* opacity: 0.5; */
+}
+
+.nine.wide.column.image-upload-form{
+    width: 100%;
+    display: flex;
+    
+}
+.ui.bottom.attached.segment.active.tab{
+    display: grid;
+    justify-content: right;
+}
+.six.wide.column{
+    display: contents;
+}
+
+@media screen and (max-width: 768px) {
+	#slide{
+		height: 150px;
+	}
+	#slide .slideDescription{
+		display: none;
+	}
+	#slide .slideImg{
+		width: 100%;
+	}
+  }
+
+  
