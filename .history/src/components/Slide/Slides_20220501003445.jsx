@@ -15,20 +15,31 @@ function Slides() {
         index !== 0? setIndex(index - 1): setIndex(slideData.length - 1);    
     }
     
+    function nextSlide() {
+      if(index !== slideData.length -1){
+        setIndex(index + 1);
+      } 
+  }
+    let sliderInterval = null; 
+    function startSlider(){
+          sliderInterval = setInterval(nextSlide, 5000);
+    }
+
 
   return (
     <div>
       <div id="slide" className="text-center">
-      <div className="slideImg" > <img src={slideData[index].image}  />
-        
+      <div className="slideImg"><img src={slideData[index].image} />
+      
         <Button  data-testid="button-prev" className="small left" onClick={()=> {
-            handlePrev()   
+            handlePrev()
+            
         }}>
              <Icon name = "chevron left" />
         </Button>
         <Button data-testid="button-next" className="small right" onClick={()=> {
-           handleNext() 
-            
+            handleNext()
+             
         }}>
             <Icon name = "chevron right" />
         </Button>

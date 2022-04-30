@@ -15,6 +15,16 @@ function Slides() {
         index !== 0? setIndex(index - 1): setIndex(slideData.length - 1);    
     }
     
+    function nextSlide() {
+      for(let i =0; i<slideData.length; i++){
+        setIndex(index + 1); 
+      }
+  }
+    let sliderInterval = null; 
+    function startSlider(){
+          sliderInterval = setInterval(nextSlide, 5000);
+    }
+
 
   return (
     <div>
@@ -27,8 +37,8 @@ function Slides() {
              <Icon name = "chevron left" />
         </Button>
         <Button data-testid="button-next" className="small right" onClick={()=> {
-           handleNext() 
-            
+           // handleNext() 
+           startSlider() 
         }}>
             <Icon name = "chevron right" />
         </Button>

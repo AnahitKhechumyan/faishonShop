@@ -57,7 +57,7 @@ const Tabs = ({
     pendingProducts &&
       pendingProducts.length > 0 &&
       setResultPending([
-        ...pendingProducts.filter((item) => item.orderStatus === status),
+        ...pendingProducts.filter((item) => item.orderStatus == status),
       ]);
   }
   function changeStartValue() {

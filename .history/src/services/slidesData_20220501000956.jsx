@@ -13,7 +13,7 @@ function slidesData(){
           },
           {
             image: images.img3,
-            text: "Squats are important. Remember to keep your back straight!",
+            text: "The clothes give a mood!",
           },
           
           {
@@ -28,7 +28,16 @@ function slidesData(){
             image: images.img6,
             text: "Be unique in every case!",
           },
+          {
+            image: images.img6,
+            text: "Fashion shop",
+          },
     ];
-    return SLIDES;
+
+    let sliderInterval = null;
+    function startSlider(){
+      sliderInterval = setInterval(SLIDES, 2500);
+    }
+    return startSlider();
 }
 export default slidesData;

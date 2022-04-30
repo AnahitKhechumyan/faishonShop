@@ -3,6 +3,11 @@ import slidesData from "../../Services/slidesData";
 import "./Slides.css";
 import {Button, Icon} from "semantic-ui-react";
 
+  //let sliderInterval = null;
+// function startSlider(){
+//   sliderInterval = setInterval(Slides, 2500);
+// }
+
 function Slides() {
     const [slideData, setSlideData] = useState(slidesData());
     const [index, setIndex] = useState(0);
@@ -14,21 +19,19 @@ function Slides() {
     function handlePrev() {
         index !== 0? setIndex(index - 1): setIndex(slideData.length - 1);    
     }
-    
-
+     
   return (
     <div>
       <div id="slide" className="text-center">
-      <div className="slideImg" > <img src={slideData[index].image}  />
-        
+      <div className="slideImg"><img src={slideData[index].image} />
+      
         <Button  data-testid="button-prev" className="small left" onClick={()=> {
-            handlePrev()   
+            handlePrev()
         }}>
              <Icon name = "chevron left" />
         </Button>
         <Button data-testid="button-next" className="small right" onClick={()=> {
-           handleNext() 
-            
+            handleNext()
         }}>
             <Icon name = "chevron right" />
         </Button>

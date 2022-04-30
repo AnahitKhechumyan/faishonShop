@@ -14,6 +14,10 @@ function Home() {
       setResponseInfo("");
     }
 
+  let sliderInterval = null;
+ function startSlider(){
+   sliderInterval = setInterval(Slides, 2500);
+ }
     return (
       <div className="home ui container">
         {responseInfo && responseInfo.length > 0 ? (
@@ -24,7 +28,7 @@ function Home() {
           ""
         )}
           
-        <Slides slides={slidesData()} />
+          startSlider(<Slides slides={slidesData()} />)
   
         <Cards pageDevider={countPageProduct} setResponseInfo={setResponseInfo} />
       </div>

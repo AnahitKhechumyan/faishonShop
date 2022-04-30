@@ -1,6 +1,11 @@
 import images from "./imgData";
-
+ 
+ 
+    //function startSlider(){
+     // sliderInterval = setInterval(SLIDES, 2500);
+   // }
 function slidesData(){
+  let sliderInterval = null;
      const SLIDES = [
         {
             image: images.img1,
@@ -12,22 +17,27 @@ function slidesData(){
           },
           {
             image: images.img3,
-            text: "Squats are important. Remember to keep your back straight.",
+            text: "The clothes give a mood!",
           },
           
           {
             image: images.img4,
-            text: "Slightly bend your knees. Remember about full range of motion.",
+            text: "Every detail is very important!",
           },
           {
             image: images.img5,
-            text: "You made it, have a nice day and see you next time!",
+            text: " Be different not only in your inner self but also in your outer self!",
           },
           {
             image: images.img6,
-            text: "You made it, have a nice day and see you next time!",
+            text: "Be unique in every case!",
+          },
+          {
+            image: images.img6,
+            text: "Fashion shop",
           },
     ];
+     
     return SLIDES;
 }
 export default slidesData;

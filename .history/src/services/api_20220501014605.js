@@ -100,6 +100,7 @@ export async function authoriseUser(user, token) {
       headers: {
         Authorization: `Bearer ${token}`,
         "Content-Type": "application/json;charset=utf-8",
+        userId: id,
       },
       body: JSON.stringify({
         id,

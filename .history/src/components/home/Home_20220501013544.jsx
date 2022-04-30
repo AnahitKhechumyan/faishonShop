@@ -14,6 +14,19 @@ function Home() {
       setResponseInfo("");
     }
 
+  //   function startSlider(){
+  //     sliderInterval = setInterval(goNext, 2500);
+  // }
+  
+  //  function stopSlider(){
+  //         clearInterval(sliderInterval);
+  //     }
+  
+     let sliderInterval = null;
+     function nextSlide(){
+      sliderInterval  = setInterval(slidesData,3000)
+     }
+  
     return (
       <div className="home ui container">
         {responseInfo && responseInfo.length > 0 ? (

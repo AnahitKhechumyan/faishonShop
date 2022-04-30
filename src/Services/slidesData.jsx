@@ -1,7 +1,9 @@
 import images from "./imgData";
  
-
+ 
+     
 function slidesData(){
+   
      const SLIDES = [
         {
             image: images.img1,
@@ -33,6 +35,7 @@ function slidesData(){
             text: "Fashion shop",
           },
     ];
+     
     return SLIDES;
 }
 export default slidesData;

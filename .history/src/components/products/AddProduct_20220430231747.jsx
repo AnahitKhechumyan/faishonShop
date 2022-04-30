@@ -41,6 +41,7 @@ function AddProduct({ setResponseInfo }) {
       if (orderStatus.httpStatus && orderStatus.httpStatus === "OK") {
         setResponseInfo(orderStatus.message);
       }
+      console.log(orderStatus);
     } catch (error) {
       console.log(error);
     }

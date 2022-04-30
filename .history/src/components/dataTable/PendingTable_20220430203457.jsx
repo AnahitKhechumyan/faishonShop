@@ -25,6 +25,7 @@ function PendingTable({ list, changeStatus}) {
        {productsByPage &&
         productsByPage.length > 0 &&
         productsByPage.map((item) => {
+          console.log("item", item);
           return (
             <Item.Group className="" key={nanoid()}>
               <Item>

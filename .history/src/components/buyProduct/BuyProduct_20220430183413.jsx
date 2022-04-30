@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Header, Image, Modal, Segment } from "semantic-ui-react";
+import { Button, Form, Header, Image, Modal, Segment } from "semantic-ui-react";
 import BuyForm from "./BuyForm";
 import "./BuyProduct.css";
 import { confirmOrder } from "../../Services/api";
@@ -8,7 +8,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import productImg from "../Slide/img/img1.jpg";
 
 function BuyProduct({ productInfo, item, setResponseInfo, stock }) {
-  const { user, getAccessTokenSilently } =
+  const { error, isAuthenticated, isLoading, user, getAccessTokenSilently } =
     useAuth0();
 
   const { description, image, name, price } = productInfo;
@@ -52,12 +52,13 @@ function BuyProduct({ productInfo, item, setResponseInfo, stock }) {
         status = true;
       }
     }
+
     setDisabled(status);
   }, [options, open]);
 
   function resetOptions() {
     for (let key in options) {
-      if (key !== "paymentMethod") {
+      if (key != "paymentMethod") {
         options[key] = "";
       }
     }

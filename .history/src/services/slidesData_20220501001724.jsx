@@ -1,7 +1,9 @@
 import images from "./imgData";
-import "./slidesData.css";
-
+ 
+ 
+     
 function slidesData(){
+   
      const SLIDES = [
         {
             image: images.img1,
@@ -13,7 +15,7 @@ function slidesData(){
           },
           {
             image: images.img3,
-            text: "Squats are important. Remember to keep your back straight!",
+            text: "The clothes give a mood!",
           },
           
           {
@@ -28,7 +30,12 @@ function slidesData(){
             image: images.img6,
             text: "Be unique in every case!",
           },
+          {
+            image: images.img6,
+            text: "Fashion shop",
+          },
     ];
+     
     return SLIDES;
 }
 export default slidesData;

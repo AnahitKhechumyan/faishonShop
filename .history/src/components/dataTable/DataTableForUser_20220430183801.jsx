@@ -17,9 +17,9 @@ function DataTableForUser({ list }) {
     console.log(e.target.files);
     setImgFile(e.target.files[0]);
   }
-    // useEffect(() => {
-    //   console.log(imgFile);
-    // }, [imgFile]);
+   useEffect(() => {
+     console.log(imgFile);
+   }, [imgFile]);
 
   useEffect(() => {
     setProductsByPage(list.slice(start, start + pageDevider));
